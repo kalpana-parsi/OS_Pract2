@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -Wall -g
 
-prog2: prog2.c
-	$(CC) $(CFLAGS) -o prog2 prog2.c
+prog3: prog3.c
+	$(CC) $(CFLAGS) -o prog3 prog3.c
 
 clean:
-	rm -f prog2
+	rm -f prog3
 
